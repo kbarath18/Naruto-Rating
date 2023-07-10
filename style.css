@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine;
+}
+
+.introduction{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    border: 5px double salmon
+}
+
+.Nimg{  
+    border-radius: 100%;
+    width: 75px;
+    height: 80px;
+  
+}
+
+
+
+.Naruto{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.Rating{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+ 
+
+.poster{
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    transition: 0.8s;
+    
+}
+
+.poster:hover{
+    width: 220px;
+    height: 220px;
+    
+}
+
+
+
+.container{
+    padding-top: 50px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    border: 2px dotted salmon;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.container2{
+    text-align: center;
+
+}
+
+table{
+    width: 100%;
+    border: 8px double salmon;
+}
+
+
+.character{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
